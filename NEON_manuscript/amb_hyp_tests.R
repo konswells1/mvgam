@@ -52,6 +52,7 @@ rho_prior = 'ddexp(5, 0.2)T(-12, 12)'
 
 # Prior is that latent trends should have positive autocorrelation
 phi_prior = 'dbeta(2,2)'
+tau_prior = 'dunif(1, 100)'
 
 # Fit multivariate and univariate versions of each hypothesis
 n.adapt = 25000
