@@ -328,7 +328,7 @@ fit_mvgam = function(data_train,
                      auto_update = FALSE,
                      interval_width = 0.9){
 
-  # Cndition the model on the observed data
+  # Condition the model on the observed data
   out_gam_mod <- mvjagam(formula = formula,
                          data_train = data_train,
                          data_test = data_test,
